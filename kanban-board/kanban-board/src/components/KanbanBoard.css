@@ -1,0 +1,53 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .priority-4 {
+    background-color: #ff5252; /* Urgent - Red */
+    color: #fff;
+  }
+  
+  .priority-3 {
+    background-color: #ff9100; /* High - Orange */
+    color: #fff;
+  }
+  
+  .priority-2 {
+    background-color: #ffec00; /* Medium - Yellow */
+  }
+  
+  .priority-1 {
+    background-color: #aed581; /* Low - Green */
+  }
+  
+  .priority-0 {
+    background-color: #e0e0e0; /* No priority - Gray */
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .priority-label {
+    font-weight: bold;
+  }
+  
+  .user-label,
+  .status-label {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* Add any other styles you need for your cards */
+  
